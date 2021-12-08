@@ -1,6 +1,7 @@
 package main
 
 const sabit_1="deger 1"
+const sabit5 string ="deger 5"
 
 const (
 	sabit_2="deger2"
@@ -14,5 +15,6 @@ const (
 )
 
 func main() {
+	//sabit5="hasan"
 println(sabit_1,sabit_2,sabit_3,sabit_4,sabit_5,sabit_6,sabit_7)
 }

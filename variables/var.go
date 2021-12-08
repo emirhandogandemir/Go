@@ -4,11 +4,13 @@ import (
 	"fmt"
 )
 
-var variable1 string
-var variable2 = 2
+
+var degisken_1 string
+var degisken_2 int =2
 
 func main() {
-	variable1 ="eded"
-	variable3 := "deger11"
-fmt.Println(variable1, variable2,variable3)
+degisken_1 ="go ktü"
+degisken_3 := 15
+fmt.Println(degisken_3,degisken_2,degisken_1)
+
 }
