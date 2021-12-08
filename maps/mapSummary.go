@@ -17,5 +17,5 @@ func main() {
 	sozluk["java"]="oop tabanlı bir programlama dili"
 	x[0]="sıfır"
 	x[1]="bir"
-	fmt.Println()
+	fmt.Println(sozluk,x)
 }

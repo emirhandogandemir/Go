@@ -7,10 +7,10 @@ import (
 
 func main() {
 
-	str :="lorem ipsum color sit amet"
-	str_1 :=str[:5]
+	str :="ktü go bootcampine hoşgeldiniz"
+	str_1 :=str[:7]
 	str_2 :=str[len(str)-4:]
-	str_3:= fmt.Sprint("%s ipsum dolor sit %s",str_1,str_2)
+	str_3:= fmt.Sprint(str_1,str_2)
 	if strings.EqualFold(str_1,"LOrEM"){
 		fmt.Println("str_1 equal to LOrEM")
 	}

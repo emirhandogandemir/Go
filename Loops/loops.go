@@ -11,7 +11,7 @@ func main() {
 	slc_2 := []int{}
 
 	for i ,value :=range slc_1{
-		fmt.Println("index %d value: %d \n",i,value)
+		fmt.Println("index value:  \n",i,value)
 	}
 
 	//for i := 0; i<10; i++ {
