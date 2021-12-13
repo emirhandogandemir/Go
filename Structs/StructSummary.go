@@ -10,6 +10,7 @@ type Araba struct {
 	marka string
 	renk string
 	maximumHız int
+
 }
 
 type Person struct {

@@ -6,6 +6,7 @@ import "fmt"
 
 var sozluk map[string]string
 
+
 var x map[int]string
 
 func main() {

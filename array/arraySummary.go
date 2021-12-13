@@ -13,12 +13,13 @@ var arr2 = [6]string{"ahmet", "hasan", "necmi", "", "", ""} // bu da array oluş
 func main() {
 	arr1[4] = 12
 
-	arr3 := make([]int, 4) // eger fonksiyon içerisinde bir tanım yapacaksanız make keywordu ile kullanımı şekildeki gibidir
+	//arr3 := make([]int, 4) // eger fonksiyon içerisinde bir tanım yapacaksanız make keywordu ile kullanımı şekildeki gibidir
 
-	//programmingLanguage := [6]string {"java","go","c++","c","python"} make kullanmadan kullanımı ise şu şekildedir
+	programmingLanguage := [6]string {"java","go","c++","c","python"}
 
-	arr3[2] = 12
+	//arr3[2] = 12
 
-	fmt.Println(arr1, arr3)
+	//fmt.Println(arr1, arr3)
+	fmt.Println(programmingLanguage)
 	fmt.Println("array2 boyutu", len(arr2)) // built-in gelen len functionu içerisinde arraylerin uzunluğunu bu şekilde bulabiliyoruz
 }

@@ -1,12 +1,10 @@
 package main
-
 import (
 	"encoding/json"
 	"fmt"
 	// goda buit-in gelen kütüphane
 	"time"
 )
-
 type Kullanıcı struct {
 	Ad      string      `json:"adi"` // tag olarak tanımlanıyor
 	Soyad   string      `json:"soyad"`

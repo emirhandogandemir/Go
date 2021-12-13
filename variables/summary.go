@@ -39,6 +39,7 @@ const (
 	variable5=iota
 	variable6
 	variable7
+	variable8
 )
 
 
@@ -51,4 +52,5 @@ func main() {
 	ktü := "go türkiye"
 	swe:=12
 fmt.Println(x, c3,m,ktü,swe)
+
 }
